@@ -1,8 +1,3 @@
-variable "project_name" {
-  description = "name of the project, used as a prefix for some namespaces"
-  type = string
-}
-
 variable "lambda_name" {
   description = "Name of the Lambda function"
   type        = string
